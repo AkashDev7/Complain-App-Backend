@@ -1,5 +1,8 @@
 const mongoose = require('mongoose')
 
+
+
+
 const productSchema = mongoose.Schema(
     {
         name: {
@@ -17,10 +20,6 @@ const productSchema = mongoose.Schema(
         password: {
             type: String,
             required: [true, "Please enter a password"]
-        },
-        confirmpassword: {
-            type: String,
-            required: [true, "Please confirm your password"]
         },
         displayphoto: {
             type: String,
